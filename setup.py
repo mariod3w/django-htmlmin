@@ -24,13 +24,13 @@ with open('README.rst', 'r') as fp:
     README = fp.read()
 
 setup(
-    name='django-htmlmin',
+    name='django-htmlmin-ajax',
     version=version,
     description='HTML minifier for Python frameworks (not only Django, '
                 'despite the name).',
     long_description=README,
-    author='CobraTeam',
-    author_email='andrewsmedina@gmail.com',
+    author='Mario Perdomo',
+    author_email='mariod3w@gmail.com',
     packages=find_packages(),
     include_package_data=True,
     install_requires=['beautifulsoup4', 'html5lib'],
